@@ -12,7 +12,7 @@ const Home = () => {
           Benjamin Cohen
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I ,
+          I
           <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
