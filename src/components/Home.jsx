@@ -12,13 +12,13 @@ const Home = () => {
           Benjamin Cohen
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I .
+          I ,
           <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'am Developer',
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'Tech Enthusiast',
+        'am Tech Enthusiast',
         1000,
         'love to play video-game and discover the world!',
         2000,
