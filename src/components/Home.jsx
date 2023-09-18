@@ -20,7 +20,7 @@ const Home = () => {
         1000, // wait 1s before replacing "Mice" with "Hamsters"
         'am Tech Enthusiast',
         1000,
-        'love to play video-game and discover the world!',
+        ' love to play video-game and discover the world!',
         2000,
         ''
       ]}
