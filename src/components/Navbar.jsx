@@ -4,8 +4,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -17,9 +15,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f1f1f1] text-gray-300'>
       <div>
-        <img src={Moi} alt='Logo Image' className='w-48 h-48 object-contain hover:object-scale-down  m-2 py-4 pt-5 rounded-full overflow-y-auto shadow shadow-white' />
+        <img src={Moi} alt="Logo Image" className=' w-20 md:w-30 lg:w-50 m-2 py-4 pt-5 rounded-full  overflow-x-auto shadow shadow-white' />
       </div>
 
       {/* menu */}
