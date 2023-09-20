@@ -1,4 +1,4 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
+import Kasa from '../assets/projects/kasa.png'
 import RealEst from '../assets/projects/realestate.jpg'
 import Bookie from '../assets/projects/bookie.jpeg'
 import Portfolio from '../assets/projects/portfolio.png'
@@ -13,24 +13,24 @@ export const data=[
     },
     {
         id:2,
-        name:"React JS Application",
+        name:"Html/css/Js + Bootstrap framework",
         image:RealEst,
-        github:"",
-        live:"",
+        github:"https://github.com/BenjaminCohn/La_Panth-re",
+        live:"https://benjamincohn.github.io/La_Panth-re/index.html",
     },
     {
         id:3,
         name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        image:Kasa,
+        github:"https://github.com/BenjaminCohn/kasa",
+        live:"https://kasa-black.vercel.app/",
     },
     {
         id:4,
         name:"React JS Application",
         image:Portfolio,
         github:"https://github.com/BenjaminCohn/portfolio",
-        live:"portefeuille-benjamincohn.vercel.app",
+        live:"https://portfolio-benjamincohn.vercel.app/",
     },
 
 
