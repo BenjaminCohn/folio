@@ -4,7 +4,7 @@ import {TypeAnimation} from 'react-type-animation'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen bg-[#212779]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600'>Hi, my name is</p>
@@ -20,7 +20,7 @@ const Home = () => {
         1000, // wait 1s before replacing "Mice" with "Hamsters"
         'am Tech Enthusiast',
         1000,
-        ' love to play video-game and discover the world!',
+        ' like discover the world!',
         2000,
         ''
       ]}
